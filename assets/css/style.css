@@ -4,6 +4,7 @@ body {
 
 :root {
   --alice-blue: #F9FAFB;
+  --ebony: #2D3036;
 }
 
 @media only screen and (min-width: 320px) {
@@ -18,6 +19,12 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+  }
+
+  nav a {
+    color: var(--ebony);
+    text-decoration: none;
   }
 
   .hd-bg-img {
